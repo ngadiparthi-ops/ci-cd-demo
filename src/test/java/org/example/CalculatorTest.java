@@ -16,4 +16,10 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(1, calc.subtract(3, 2));
     }
+
+    @Test
+    void testMultiply() {
+        Calculator calc = new Calculator();
+        assertEquals(99, calc.multiply(2, 3));  // WRONG on purpose - real answer is 6
+    }
 }
