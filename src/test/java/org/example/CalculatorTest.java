@@ -22,4 +22,10 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(6, calc.multiply(2, 3));  // WRONG on purpose - real answer is 6
     }
+    @Test
+    void testDivide() {
+        Calculator calc = new Calculator();
+        assertEquals(2, calc.divide(6, 3));
+    }
+
 }
