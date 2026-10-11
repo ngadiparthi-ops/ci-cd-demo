@@ -20,6 +20,6 @@ public class CalculatorTest {
     @Test
     void testMultiply() {
         Calculator calc = new Calculator();
-        assertEquals(99, calc.multiply(2, 3));  // WRONG on purpose - real answer is 6
+        assertEquals(6, calc.multiply(2, 3));  // WRONG on purpose - real answer is 6
     }
 }
