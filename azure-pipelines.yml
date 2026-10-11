@@ -16,5 +16,5 @@ steps:
       jdkArchitectureOption: 'x64'
       jdkSourceOption: 'PreInstalled'
 
-  - script: mvn test
-    displayName: 'Build and run tests with Maven'
+  - script: mvn package
+    displayName: 'Build and package with Maven'
