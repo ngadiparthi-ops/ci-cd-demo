@@ -18,3 +18,7 @@ steps:
 
   - script: mvn package
     displayName: 'Build and package with Maven'
+  - task: PublishBuildArtifacts@1
+    inputs:
+        pathToPublish: 'target'
+        artifactName: 'ci-cd-demo-jar'
